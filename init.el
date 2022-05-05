@@ -1,0 +1,1 @@
+/home/linarcx/VoidConf/home/.emcas.d/settings.org
