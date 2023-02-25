@@ -7,8 +7,9 @@
 (line-number-mode t)
 (column-number-mode t)
 (global-display-line-numbers-mode t)
-
-;(setq line-number-mode t)
+(setq-default display-fill-column-indicator-column 120)
+(setq display-fill-column-indicator-column 120)
+(global-display-fill-column-indicator-mode 1)
 
 (add-to-list 'default-frame-alist '(font . "FantasqueSansMono-13")) ; CascadiaCode / Cascadia Code
 

@@ -30,13 +30,18 @@
 (require 'setup-which-key)
 (require 'setup-ripgrep)
 (require 'setup-projectile)
+
+; UI
 (require 'setup-centaur-tabs)
+;(require 'setup-doom-modeline)
+;(require 'setup-beacon) ; A light that follows your cursor around so you don't lose it! --> https://github.com/Malabarba/beacon
+
+; extra funcionality
+(require 'setup-dired)
 
 ; internal
 (require 'setup-general)
 (require 'setup-hooks)
-(require 'setup-dired)
-(require 'setup-doom-modeline)
 (require 'setup-mappings)
 
 ; multi-platform

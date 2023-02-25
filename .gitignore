@@ -1,9 +1,12 @@
 .lsp-session-v1
 .dap-breakpoints
-projectile.cache
+
 bookmarks_linux.bmk
+
+projectile.cache
 projectile-bookmarks.eld
 
+url/*
 var/*
 garbage/*
 straight/*

@@ -1,8 +1,7 @@
 (add-hook 'prog-mode-hook (lambda ()
   (hl-line-mode t)
 	(electric-pair-mode 1)
-	;(display-line-numbers-mode)
-	(display-fill-column-indicator-mode)
+	;(display-fill-column-indicator-mode)
 	(company-mode)
 	))
 
