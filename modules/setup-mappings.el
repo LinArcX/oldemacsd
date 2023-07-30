@@ -44,14 +44,14 @@
 ;(global-set-key (kbd "<f6>") 'ivy-resume)
 ;(global-set-key (kbd "C-c C-r") 'ivy-resume)
 
-(eval-after-load "evil" '(progn
-  (define-key evil-motion-state-map (kbd "M-p") 'counsel-find-file)
-  (define-key evil-motion-state-map (kbd "C-f") 'projectile-find-file)
-  (define-key evil-motion-state-map (kbd "M-r") 'counsel-grep)
-  (define-key evil-motion-state-map (kbd "C-h k") 'counsel-descbinds)
-  (define-key evil-motion-state-map (kbd "C-b") 'consult-buffer)
-  (define-key evil-motion-state-map (kbd "<f1>") 'counsel-describe-function)
-	(define-key evil-motion-state-map (kbd "C-u") 'evil-scroll-up)))
+;(eval-after-load "evil" '(progn
+;  (define-key evil-motion-state-map (kbd "M-p") 'counsel-find-file)
+;  (define-key evil-motion-state-map (kbd "C-f") 'projectile-find-file)
+;  (define-key evil-motion-state-map (kbd "M-r") 'counsel-grep)
+;  (define-key evil-motion-state-map (kbd "C-h k") 'counsel-descbinds)
+;  (define-key evil-motion-state-map (kbd "C-b") 'consult-buffer)
+;  (define-key evil-motion-state-map (kbd "<f1>") 'counsel-describe-function)
+;	(define-key evil-motion-state-map (kbd "C-u") 'evil-scroll-up)))
 
 (provide 'setup-mappings)
 

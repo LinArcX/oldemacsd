@@ -19,7 +19,9 @@
 (require 'setup-company)
 
 ; emulation layer
-(require 'setup-evil)
+;(require 'setup-linarcx-keys)
+;(require 'setup-xah-fly)
+;(require 'setup-evil)
 
 ; programming
 (require 'setup-dap)
@@ -59,3 +61,13 @@
 (require 'setup-prog-mode)
 (require 'setup-srt-mode)
 (require 'setup-cmake-mode)
+
+
+(add-to-list 'load-path "~/.emacs.d/lisp/")
+
+(require 'xah-fly-keys)
+
+;; specify a layout
+(xah-fly-keys-set-layout "qwerty")
+
+(xah-fly-keys 1)
